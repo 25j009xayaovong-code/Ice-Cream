@@ -5,6 +5,7 @@ public class Main {
 
         System.out.println(encryption("i love you 300"));
         System.out.println(encryption(decryption(encryption("i love you 300"))));
+        //doauwhdoaiw
 
     }   
 
