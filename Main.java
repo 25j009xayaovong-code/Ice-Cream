@@ -4,6 +4,8 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println(encryption("i love you 300"));
+        System.out.println(decryption(encryption("i love you 300")));
+        //this is for show only
 
     }   
 
