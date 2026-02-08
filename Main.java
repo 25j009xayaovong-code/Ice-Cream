@@ -5,7 +5,7 @@ public class Main {
 
         System.out.println(encryption("i love you 300"));
         System.out.println(decryption(encryption("i love you 300")));
-        //sdaw
+        //this is for show only
 
     }   
 
