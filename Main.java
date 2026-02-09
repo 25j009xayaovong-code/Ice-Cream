@@ -2,10 +2,14 @@
 
 public class Main {
     public static void main(String[] args) {
-
-        System.out.println(encryption("i love you 300"));
+        String  text = "i love you my dear";
+        String encryptedText = encryption(text);
+        System.out.println(encryption(text));
+        String decryptedText = decryption(encryptedText);
+        System.out.println(decryptedText);
         //
         //this is for show only
+        System.out.println((char)105); // i
 
     }   
 
@@ -23,7 +27,9 @@ public class Main {
     public static String decryption(String text) {
         String mergeText = "";
         for (char c : text.toCharArray()) {
-            String str = String.valueOf((char) c);
+            System.out.println(c);
+            int cInt = c;
+            String str = String.valueOf((char)cInt);
             mergeText += str;
         }
 
