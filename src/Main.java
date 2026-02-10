@@ -50,6 +50,6 @@ public class Main {
     }
     public static void subtraction(int a, int b) {
         int result = a - b;
-        System.out.println(result);
+        System.out.println(result); // Display the result
     }
 }
