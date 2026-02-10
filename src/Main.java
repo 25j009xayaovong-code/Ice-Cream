@@ -36,16 +36,5 @@ public class Main {
 
         return mergeText;
     }
-    // github.com/saifurrahman-dev Mr. Ri has add this line 
-      public static String decryption(String text, int num) {
-        String mergeText = "";
-        for (char c : text.toCharArray()) {
-            System.out.println(c);
-            int cInt = c;
-            String str = String.valueOf((char)cInt);
-            mergeText += str;
-        }
-
-        return mergeText;
-    }
+    // github.com/saifurrahman-dev Mr. Ri has add this lines 
 }
