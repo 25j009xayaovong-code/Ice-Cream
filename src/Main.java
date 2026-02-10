@@ -48,4 +48,8 @@ public class Main {
 
         return mergeText;
     }
+    public static void subtraction(int a, int b) {
+        int result = a - b;
+        System.out.println(result);
+    }
 }
